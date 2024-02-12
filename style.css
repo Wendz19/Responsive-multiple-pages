@@ -35,6 +35,8 @@ p {
   text-align: center;
 }
 
+
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -102,4 +104,13 @@ p {
 }
 .primary-link:hover {
   font-weight: bold;
+}
+@media (max-width: 768px) {
+h1 {
+    font-size: 66px;
+}
+h1, .introduction {
+    text-align: center;
+
+}
 }
